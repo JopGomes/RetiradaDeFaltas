@@ -218,7 +218,7 @@ const users = [
 ];
 
 function renderCard(user) {
-  const card = $("<div>", { class: "card", id: user.name });
+  const card = $("<div>", { class: "card", id: user.grad + "_" + user.name });
   const img = $("<img>", {
     src: user.img,
     alt: "img de perfil",

@@ -1,12 +1,16 @@
+body {
+  justify-content: center;
+}
 .card {
   width: 220px;
-  height: 250px;
+  height: 230px;
   border: 1px solid black;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.63);
   margin-top: 10px;
   padding: 3px;
+  background-color: rgba(240, 255, 252, 0.601);
 }
 
 .card img {
@@ -39,4 +43,6 @@
   justify-content: space-around;
   align-items: center;
   margin: 5px;
+  background-color: rgba(145, 82, 82, 0.63);
+  padding: 2px;
 }
