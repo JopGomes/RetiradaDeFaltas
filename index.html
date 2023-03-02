@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="jquery-3.6.3.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Controle de falta</title>
+  </head>
+  <body>
+    <label for="data-evento">Data do Evento:</label>
+    <input type="date" id="data-evento" name="data-evento" />
+    <label for="opcoes">Escolha uma opção:</label>
+    <select id="opcoes" name="opcoes">
+      <option value="Todos">Todos</option>
+      <option value="CFG Ativa">CFG Ativa</option>
+      <option value="CFG Reserva">CFG Reserva</option>
+      <option value="CG">CG</option>
+    </select>
+    <button id="download">EXPORTAR</button>
+    <div class="card-list"></div>
+    <script src="logic.js"></script>
+  </body>
+</html>
